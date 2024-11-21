@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+header {
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 100px;
+}
+
+.logo img {
+
+    margin: -3px;
+    height: 60px;
+    width: 100px;
+}
+
+
+.nav-itmes {
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 400px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+}
+
+ul li:hover {
+    color: rgb(169, 169, 173);
+}
+
+.button {
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 180px;
+    padding: 15px;
+}
+
+.button p:hover {
+    color: rgb(169, 169, 173);
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.search-box input {
+    width: 700px;
+    border: 2px solid rgb(169, 169, 173);
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px 0.1px rgb(169, 169, 173);
+    margin-top: 30px;
+    height: 50px;
+}
+
+.search-box ::placeholder {
+    padding: 16px;
+}
+
+
+
+.icon svg {
+    margin: 15px -39px;
+    padding: 2px 3px;
+}
+
+hr {
+    margin-top: 40px;
+}
+
+main {
+    /* border: 2px solid red; */
+    height: 900px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-1 {
+    /* border: 2px solid /red; */
+    background-color: ghostwhite;
+    height: 340px;
+    width: 300px;
+}
+
+.card-1 img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.para{
+    color: grey;
+}
+
+.para-1{
+    font-weight: 600;
+}
+
+.caption{
+    margin-left: 25px;
+    margin-top: 6px;
+}
+
+.card-2 {
+    /* border: 2px solid red; */
+    height: 340px;
+    background-color: ghostwhite;
+    width: 300px;
+}
+
+.card-2 img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.card-3 {
+    background-color: ghostwhite;
+    /* border: 2px solid red; */
+    height: 340px;
+    width: 300px;
+}
+
+.card-3 img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.card-4 {
+    /* border: 2px solid red; */
+    background-color: ghostwhite;
+    height: 340px;
+    width: 300px;
+}
+
+
+
+.card-4 img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.card-5 {
+    /* border: 2px solid red; */
+    background-color: ghostwhite;
+    margin-top: 20px;
+    height: 340px;
+    width: 300px;
+}
+
+.card-5 img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
